@@ -1,0 +1,85 @@
+### Desafio Semantix ###
+
+1a maquina Docker (com filesystem compartilhado)
+
+- Servico de endpoint (http)
+ (api pra ser chamada com algum termo para fazer webscrap)
+
+- Servico de Webscrap 
+(que pesquisar na internet os termos e salvar os resultado em json no filesystem compartilhado)
+
+
+Referencias de Flask:
+https://medium.com/bitcraft/docker-composing-a-python-3-flask-app-line-by-line-93b721105777
+https://medium.com/bitcraft/dockerizing-a-python-3-flask-app-line-by-line-400aef1ded3a
+
+https://medium.com/@sonusharma.mnnit/building-a-microservice-in-python-ff009da83dac
+
+https://runnable.com/docker/python/dockerize-your-flask-application
+https://runnable.com/docker/python/docker-compose-with-flask-apps
+
+https://blog.4linux.com.br/web-scraping-python-selenium-e-beautifulsoup/
+
+2a máquina Docker (Cluster Cloudera com o filesystem compartilhado)
+
+- PySpark que lerá os jsons e carregará no HDFS
+- External Tabelas no Hive apontando para estes arquivos 
+
+
+#Treinamentos - Python
+Alura
+	flask parte 1 e 2
+
+	Numpy Basico
+	Pandas Basico
+	Scraping com Python
+
+	Expressoes Regulares
+
+	Design Patterns I
+	Design Patterns II
+
+	Jenkins e Docker
+	Git e GitHub
+
+Youtube
+	Python - gestao de pacotes e dependencias (https://www.youtube.com/watch?v=_XszPRFHQQ4)
+
+Api com Flask(https://lucassimon.com.br/2018/06/serie-api-em-flask---parte-1---introducao-configuracao-e-hello-world/)
+
+Docker Seleniun
+https://github.com/SeleniumHQ/docker-selenium#version-3
+
+http://localhost:5000/scores?company=Cielo
+
+
+curl -X GET "http://localhost:5000/scores?company=Cielo"
+curl -X GET "http://localhost:5000/reclamations?company=Cielo"
+
+curl -X GET "http://localhost:5000/test1?tk=50"
+
+
+curl -X "Content-Type: application/json" GET "http://localhost:9999/scores?company=Cielo"
+
+curl -s -D - http://localhost:5000/scores?company=Cielo -H 'Content-Type: application/json'
+''
+
+RUN GECKODRIVER_VERSION=`curl https://github.com/mozilla/geckodriver/releases/latest | grep -Po 'v[0-9]+.[0-9]+.[0-9]+'` && \
+    wget https://github.com/mozilla/geckodriver/releases/download/$GECKODRIVER_VERSION/geckodriver-$GECKODRIVER_VERSION-linux64.tar.gz && \
+    tar -zxf geckodriver-$GECKODRIVER_VERSION-linux64.tar.gz -C /usr/local/bin && \
+    
+     && \
+    rm geckodriver-$GECKODRIVER_VERSION-linux64.tar.gz
+
+RUN FIREFOX_SETUP=firefox-setup.tar.bz2 && \
+    apt-get purge firefox && \
+    wget -O $FIREFOX_SETUP "https://download.mozilla.org/?product=firefox-latest&os=linux64" && \
+    tar xjf $FIREFOX_SETUP -C /opt/ && \
+    ln -s /opt/firefox/firefox /usr/bin/firefox && \
+    rm $FIREFOX_SETUP
+
+
+chmod +x /usr/local/bin/geckodriver
+
+
+

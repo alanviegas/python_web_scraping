@@ -1,0 +1,11 @@
+###########################################################
+########Standard Python Library  defined ##################
+###########################################################
+
+# Here its necessary to add other libraries used in your project
+pytest==4.4.1
+bs4>=0.0.1
+selenium>=3.141.0
+Flask>=1.1.1
+pathlib
+pdb-clone
