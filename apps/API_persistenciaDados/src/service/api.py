@@ -2,9 +2,9 @@
 # -*- coding: utf-8 -*-
 
 """
-Date: 20200316
+Date: 20200413
 User: Alan Viegas
-Project: Search on site ReclameAqui.com for score-points and reclamations of the Company
+Project: Recebe os dados pegos do site ReclameAqui.com e armazena no MongoDB
 
 # Tests 
 # curl -X GET "http://localhost:5000/scores?company=Cielo"
