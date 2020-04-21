@@ -2,34 +2,34 @@ version: '3'
 
 services:
    
-  # api_consultareclameaqui:
-  #   volumes:
-  #     - ./apps/API_consultaReclameAqui:/app
-  #   build:
-  #     context: .
-  #     dockerfile: apps/API_consultaReclameAqui/Dockerfile
-  #   ports:
-  #     - "5000:5000"
-  #     - "8080:8080"
-  #     - "4444:4444"
-  #     - "3000:3000"
-  #     - "443:443"
-  #   networks: 
-  #     - local
-  #   domainname: localhost
-
-  api_persistenciadados:
+  api_consultareclameaqui:
     volumes:
-      - ./apps/API_persistenciaDados:/app
+      - ./apps/API_consultaReclameAqui:/app
     build:
       context: .
-      dockerfile: apps/API_persistenciaDados/Dockerfile
+      dockerfile: apps/API_consultaReclameAqui/Dockerfile
     ports:
+      - "5000:5000"
       - "8080:8080"
+      - "4444:4444"
+      - "3000:3000"
       - "443:443"
     networks: 
       - local
     domainname: localhost
+
+  # api_persistenciadados:
+  #   volumes:
+  #     - ./apps/API_persistenciaDados:/app
+  #   build:
+  #     context: .
+  #     dockerfile: apps/API_persistenciaDados/Dockerfile
+  #   ports:
+  #     - "8080:8080"
+  #     - "443:443"
+  #   networks: 
+  #     - local
+  #   domainname: localhost
 
 
 networks:

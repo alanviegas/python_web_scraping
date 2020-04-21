@@ -15,8 +15,8 @@ v101: Initial version
 """
 
 import sys
-sys.path.append('/app')
-#sys.path.append('/home/alanviegas/Documentos/estudos/desafioSemantix/apps/API_consultaReclameAqui')
+#sys.path.append('/app')
+sys.path.append('/home/alanviegas/Documentos/estudos/desafioSemantix/apps/API_consultaReclameAqui')
 
 from flask import Flask, Response, jsonify, request, abort
 from src.dao.reclamations import CompanyReclamations
