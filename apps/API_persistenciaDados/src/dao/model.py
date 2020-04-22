@@ -8,9 +8,16 @@ Project: criação, consulta, atualização e remoção de dados no MongoDB
 v101: Initial version
  
 ## Dados do banco 
+    #Para entrar na docker
+    docker exec -it mongodb bash
+
+    #para comitar as alteracoes da docker
+    docker commit <container-id> mmongo:3.6.3
+
 conexao mongodb://127.0.0.1:27017
  
 Criação do banco
+    mongo --port 27017 -u root -p root --authenticationDatabase "admin"
     use reclameaqui-db
 
     db.createCollection("scores")
@@ -23,7 +30,9 @@ Criação do banco
     } )
 
 ## Teste conexao
-    mongo -u appUser -p app#123 --authenticationDatabase reclameaqui-db
+    mongo -u appuser -p senha123 --authenticationDatabase reclameaqui-db
+
+
 
 Refs: 
 https://www.bogotobogo.com/python/MongoDB_PyMongo/python_MongoDB_pyMongo_tutorial_installing.php
@@ -70,7 +79,7 @@ class Model(dict):
 # ------------------------------
 
 class ReclameAquiScore(Model):
-    __uri = "mongodb://appuser:senha123@localhost:27017/reclameaqui-db"
+    __uri = "mongodb://appuser:senha123@mongodb:27017/reclameaqui-db"
     __client = MongoClient(__uri)
     __db = __client['reclameaqui-db']
 
@@ -81,7 +90,7 @@ class ReclameAquiScore(Model):
 # Documento Reclamations com as configuracoes de conexao ao mongoDB
 # ------------------------------
 class ReclameAquiReclamation(Model):
-    __uri = "mongodb://appuser:senha123@localhost:27017/reclameaqui-db"
+    __uri = "mongodb://appuser:senha123@mongodb:27017/reclameaqui-db"
     __client = MongoClient(__uri)
     __db = __client['reclameaqui-db']
     collection = __db.get_collection('reclamations')

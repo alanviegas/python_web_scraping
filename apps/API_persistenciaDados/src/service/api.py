@@ -19,8 +19,8 @@ Ref:
 """
 
 import sys
-#sys.path.append('/app')
-sys.path.append('/home/alanviegas/Documentos/estudos/desafioSemantix/apps/API_persistenciaDados')
+sys.path.append('/app')
+#sys.path.append('/home/alanviegas/Documentos/estudos/desafioSemantix/apps/API_persistenciaDados')
 
 import json
 from flask import Flask, Response, jsonify, request, abort

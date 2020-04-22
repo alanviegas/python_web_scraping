@@ -2,35 +2,59 @@ version: '3'
 
 services:
    
-  api_consultareclameaqui:
-    volumes:
-      - ./apps/API_consultaReclameAqui:/app
-    build:
-      context: .
-      dockerfile: apps/API_consultaReclameAqui/Dockerfile
-    ports:
-      - "5000:5000"
-      - "8080:8080"
-      - "4444:4444"
-      - "3000:3000"
-      - "443:443"
-    networks: 
-      - local
-    domainname: localhost
-
-  # api_persistenciadados:
+  # api_consultareclameaqui:
   #   volumes:
-  #     - ./apps/API_persistenciaDados:/app
+  #     - ./apps/API_consultaReclameAqui:/app
   #   build:
   #     context: .
-  #     dockerfile: apps/API_persistenciaDados/Dockerfile
+  #     dockerfile: apps/API_consultaReclameAqui/Dockerfile
   #   ports:
+  #     - "5000:5000"
   #     - "8080:8080"
+  #     - "4444:4444"
+  #     - "3000:3000"
   #     - "443:443"
   #   networks: 
   #     - local
-  #   domainname: localhost
+  #   domainname: apiconsult
 
+  api_persistenciadados:
+    volumes:
+      - ./apps/API_persistenciaDados:/app
+    build:
+      context: .
+      dockerfile: apps/API_persistenciaDados/Dockerfile
+    ports:
+      - "5005:5005"
+    environment:
+      MONGO_USERNAME: appuser
+      MONGO_INITDB_ROOT_PASSWORD: senha123
+      MONGO_DATABASE: reclameaqui-db
+      MONGODB_HOSTNAME: mongodb
+    networks: 
+      - local
+    domainname: apipersist
+    depends_on:
+      - mongodb
+
+  mongodb:
+    image: mongo:3.6.3
+    container_name: mongodb
+    restart: unless-stopped
+    command: mongod --auth
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+      MONGO_INITDB_DATABASE: reclameaqui-db
+      MONGODB_DATA_DIR: /data/db
+      MONDODB_LOG_DIR: /data/log
+      MONGODB_DATA_PATH_HOST: /data/db
+      MONGODB_SAVE_PATH: /data/db
+    volumes:
+      - ./apps/API_persistenciaDados/mongodb:/data
+    networks: 
+      - local
+    domainname: mongodb
 
 networks:
   local:

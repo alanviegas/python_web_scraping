@@ -5,8 +5,7 @@
 # Here its necessary to add other libraries used in your project
 pytest==4.4.1
 Flask>=1.1.1
-mongoengine
+pymongo
 pathlib
-pdb-clone
-json
+datetime
 jsonschema
