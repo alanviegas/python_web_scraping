@@ -4,7 +4,7 @@
 """
 Date: 20200316
 User: Alan Viegas
-Project: Search on site ReclameAqui.com.br for score-points and reclamations of the Company
+Project: Busca no site ReclameAqui.com.br por score-points e reclamations de uma Companhia
 
 R0: Initial version
 

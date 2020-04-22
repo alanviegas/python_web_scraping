@@ -18,3 +18,6 @@ class TestService:
 if __name__ == '__main__':
     TestService().test_answer()
 
+# Tests 
+# curl -X GET "http://localhost:5000/scores?company=Cielo"
+# curl -X GET "http://localhost:5000/reclamations?company=Cielo"

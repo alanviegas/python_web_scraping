@@ -19,7 +19,11 @@ Ref:
 """
 
 import sys
+
+# Para subir a API no Docker
 sys.path.append('/app')
+
+# Para subir localmente 
 #sys.path.append('/home/alanviegas/Documentos/estudos/desafioSemantix/apps/API_persistenciaDados')
 
 import json

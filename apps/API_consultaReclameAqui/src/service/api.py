@@ -4,19 +4,18 @@
 """
 Date: 20200316
 User: Alan Viegas
-Project: Search on site ReclameAqui.com for score-points and reclamations of the Company
-
-# Tests 
-# curl -X GET "http://localhost:5000/scores?company=Cielo"
-# curl -X GET "http://localhost:5000/reclamations?company=Cielo"
+Project:  Busca no site ReclameAqui.com.br por score-points e reclamations de uma Companhia
 
 v101: Initial version
 
 """
-
 import sys
-#sys.path.append('/app')
-sys.path.append('/home/alanviegas/Documentos/estudos/desafioSemantix/apps/API_consultaReclameAqui')
+
+# Para subir a API no Docker
+sys.path.append('/app')
+
+# Para subir localmente 
+#sys.path.append('/home/alanviegas/Documentos/estudos/desafioSemantix/apps/API_consultaReclameAqui')
 
 from flask import Flask, Response, jsonify, request, abort
 from src.dao.reclamations import CompanyReclamations
@@ -24,24 +23,9 @@ from src.dao.reclamations import CompanyReclamations
 app = Flask(__name__)
 app.config['JSON_AS_ASCII'] = False
 
-
-
 @app.route('/')
 def home():
     return "API para consulta ao Reclame Aqui"
-
-'''
-## curl -X GET "http://localhost:5000/test1?tk=50"
-@app.route('/test1', methods=['GET'])
-def foo8():
-    cr = CR()
-    try:
-       var2 = int(request.args['tk'])
-    except:
-        abort(400)
-  
-    return jsonify(status='Codigo realizado {}'.format(var2))
-'''
 
 @app.route('/scores', methods=['GET'])
 def get_scores():

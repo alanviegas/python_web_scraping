@@ -59,11 +59,11 @@ import json
 
 
 # #Teste GET (company)
-# url = 'http://localhost:5005/reclamations/'
-# params = {'company': 'Cielo'}
-# response = requests.get(url, params=params)
-# print(response.status_code)
-# print(response.text)
+url = 'http://localhost:5005/reclamations/'
+params = {'company': 'Cielo'}
+response = requests.get(url, params=params)
+print(response.status_code)
+print(response.text)
 
 
 # #Teste GET (company and date)

@@ -32,8 +32,6 @@ Criação do banco
 ## Teste conexao
     mongo -u appuser -p senha123 --authenticationDatabase reclameaqui-db
 
-
-
 Refs: 
 https://www.bogotobogo.com/python/MongoDB_PyMongo/python_MongoDB_pyMongo_tutorial_installing.php
 https://gist.github.com/fatiherikli/4350345
@@ -42,6 +40,7 @@ https://gist.github.com/fatiherikli/4350345
 
 from pymongo import MongoClient
 from datetime import datetime
+from utils.utils import get_database
 
 # -----------------------------------------
 # Um modelo simples para documentos mongodb
@@ -79,9 +78,10 @@ class Model(dict):
 # ------------------------------
 
 class ReclameAquiScore(Model):
-    __uri = "mongodb://appuser:senha123@mongodb:27017/reclameaqui-db"
+    __uri_conn, __db_conn = get_database()
+    __uri = __uri_conn
     __client = MongoClient(__uri)
-    __db = __client['reclameaqui-db']
+    __db = __client[__db_conn]
 
     collection = __db.get_collection('scores')
    
@@ -90,7 +90,9 @@ class ReclameAquiScore(Model):
 # Documento Reclamations com as configuracoes de conexao ao mongoDB
 # ------------------------------
 class ReclameAquiReclamation(Model):
-    __uri = "mongodb://appuser:senha123@mongodb:27017/reclameaqui-db"
+    __uri_conn, __db_conn = get_database()
+    __uri = __uri_conn
     __client = MongoClient(__uri)
-    __db = __client['reclameaqui-db']
+    __db = __client[__db_conn]
+
     collection = __db.get_collection('reclamations')

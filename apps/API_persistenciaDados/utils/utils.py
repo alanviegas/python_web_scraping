@@ -12,9 +12,15 @@ def get_project_root():
     """Returns project root folder."""
     return Path(__file__).parent.parent
 
-def get_url():
-    return 'https://www.reclameaqui.com.br'
-    #return '107.154.102.99'
+
+def get_database():
+     
+     uri = 'mongodb://appuser:senha123@mongodb:27017/reclameaqui-db'
+     #uri = 'mongodb://appuser:senha123@localhost:27017/reclameaqui-db'
+     
+     db = 'reclameaqui-db'
+     
+     return uri, db
 
 def validateJSON(jsonData, schema):
     
