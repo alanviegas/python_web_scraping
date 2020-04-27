@@ -1,0 +1,40 @@
+[2020-04-26 23:43:21,052] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: ReclameAqui-scraping_scores.persiste_dados_mongodb 2020-04-26T23:42:03.854394+00:00 [queued]>
+[2020-04-26 23:43:21,075] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: ReclameAqui-scraping_scores.persiste_dados_mongodb 2020-04-26T23:42:03.854394+00:00 [queued]>
+[2020-04-26 23:43:21,076] {{taskinstance.py:866}} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-26 23:43:21,076] {{taskinstance.py:867}} INFO - Starting attempt 1 of 2
+[2020-04-26 23:43:21,076] {{taskinstance.py:868}} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-26 23:43:21,147] {{taskinstance.py:887}} INFO - Executing <Task(PythonOperator): persiste_dados_mongodb> on 2020-04-26T23:42:03.854394+00:00
+[2020-04-26 23:43:21,151] {{standard_task_runner.py:53}} INFO - Started process 32385 to run task
+[2020-04-26 23:43:21,262] {{logging_mixin.py:112}} INFO - Running %s on host %s <TaskInstance: ReclameAqui-scraping_scores.persiste_dados_mongodb 2020-04-26T23:42:03.854394+00:00 [running]> 030a07de9129.semantix
+[2020-04-26 23:43:21,310] {{taskinstance.py:1128}} ERROR - 't1' is undefined
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 951, in _run_raw_task
+    self.render_templates(context=context)
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1385, in render_templates
+    self.task.render_template_fields(context)
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 710, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 717, in _do_render_template_fields
+    rendered_content = self.render_template(content, context, jinja_env, seen_oids)
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 761, in render_template
+    return {key: self.render_template(value, context, jinja_env) for key, value in content.items()}
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 761, in <dictcomp>
+    return {key: self.render_template(value, context, jinja_env) for key, value in content.items()}
+  File "/usr/local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 746, in render_template
+    return jinja_env.from_string(content).render(**context)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/asyncsupport.py", line 76, in render
+    return original_render(self, *args, **kwargs)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 1008, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 780, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python3.7/site-packages/jinja2/_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "<template>", line 1, in top-level template code
+  File "/usr/local/lib/python3.7/site-packages/jinja2/environment.py", line 430, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 't1' is undefined
+[2020-04-26 23:43:21,320] {{taskinstance.py:1151}} INFO - Marking task as UP_FOR_RETRY
+[2020-04-26 23:43:30,925] {{logging_mixin.py:112}} INFO - [2020-04-26 23:43:30,924] {{local_task_job.py:103}} INFO - Task exited with return code 1

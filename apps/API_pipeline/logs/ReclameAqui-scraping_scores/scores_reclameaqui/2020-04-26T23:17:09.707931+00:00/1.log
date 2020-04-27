@@ -1,0 +1,29 @@
+[2020-04-26 23:17:14,249] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: ReclameAqui-scraping_scores.scores_reclameaqui 2020-04-26T23:17:09.707931+00:00 [queued]>
+[2020-04-26 23:17:14,276] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: ReclameAqui-scraping_scores.scores_reclameaqui 2020-04-26T23:17:09.707931+00:00 [queued]>
+[2020-04-26 23:17:14,276] {{taskinstance.py:866}} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-26 23:17:14,278] {{taskinstance.py:867}} INFO - Starting attempt 1 of 2
+[2020-04-26 23:17:14,279] {{taskinstance.py:868}} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-26 23:17:14,299] {{taskinstance.py:887}} INFO - Executing <Task(PythonOperator): scores_reclameaqui> on 2020-04-26T23:17:09.707931+00:00
+[2020-04-26 23:17:14,305] {{standard_task_runner.py:53}} INFO - Started process 16177 to run task
+[2020-04-26 23:17:14,410] {{logging_mixin.py:112}} INFO - Running %s on host %s <TaskInstance: ReclameAqui-scraping_scores.scores_reclameaqui 2020-04-26T23:17:09.707931+00:00 [running]> 030a07de9129.semantix
+[2020-04-26 23:17:14,446] {{logging_mixin.py:112}} INFO - DEBUG GET 1: http://api_consultareclameaqui:5000/scores
+[2020-04-26 23:17:14,447] {{logging_mixin.py:112}} INFO - DEBUG GET 2: {'company': 'Cielo'}
+[2020-04-26 23:17:50,583] {{logging_mixin.py:112}} INFO - 200
+[2020-04-26 23:17:50,637] {{logging_mixin.py:112}} INFO - {
+  "answered": "6044", 
+  "reclamations": "6144", 
+  "response_time": "15 dias e 1 hora ", 
+  "unanswered": "100"
+}
+[2020-04-26 23:17:50,638] {{logging_mixin.py:112}} INFO - 
+[2020-04-26 23:17:50,639] {{python_operator.py:114}} INFO - Done. Returned value was: {
+  "answered": "6044", 
+  "reclamations": "6144", 
+  "response_time": "15 dias e 1 hora ", 
+  "unanswered": "100"
+}
+
+[2020-04-26 23:17:50,709] {{taskinstance.py:1048}} INFO - Marking task as SUCCESS.dag_id=ReclameAqui-scraping_scores, task_id=scores_reclameaqui, execution_date=20200426T231709, start_date=20200426T231714, end_date=20200426T231750
+[2020-04-26 23:17:54,383] {{logging_mixin.py:112}} INFO - [2020-04-26 23:17:54,381] {{local_task_job.py:103}} INFO - Task exited with return code 0

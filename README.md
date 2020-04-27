@@ -12,8 +12,9 @@
     - Pymongo
     - Selenium 
  - Mongo 3.6
- - Docker Composer
- 
+ - Docker / Docker Composer
+ - Apache Airflow
+
 ## Estrutura do pastas do projeto
  
  - "/app/API_consultaReclameAqui" : API que consulta o site ReclameAqui e retorna os resultados

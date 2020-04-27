@@ -1,10 +1,41 @@
 version: '3'
 
 services:
-   
+
+  api_pipeline:
+    image: puckel/docker-airflow
+    container_name: api_pipeline
+    restart: always
+    depends_on:
+        - postgres
+    environment:
+        - LOAD_EX=n
+        - EXECUTOR=Local
+    logging:
+        options:
+            max-size: 10m
+            max-file: "3"
+    volumes:
+        - ./apps/API_pipeline/dags:/usr/local/airflow/dags
+        - ./apps/API_pipeline/logs:/usr/local/airflow/logs
+        # - ./plugins:/usr/local/airflow/plugins
+    ports:
+        - "8080:8080"
+    command: webserver
+    healthcheck:
+        test: ["CMD-SHELL", "[ -f /usr/local/airflow/airflow-webserver.pid ]"]
+        interval: 30s
+        timeout: 30s
+        retries: 3
+    networks: 
+      - local
+    domainname: semantix
+
+
   api_consultareclameaqui:
     volumes:
-      - ./apps/API_consultaReclameAqui:/app
+        - ./apps/API_consultaReclameAqui:/app
+    container_name: api_consultareclameaqui
     build:
       context: .
       dockerfile: apps/API_consultaReclameAqui/Dockerfile
@@ -12,11 +43,13 @@ services:
       - "5000:5000"
     networks: 
       - local
-    domainname: apiconsult
+    domainname: semantix
+
 
   api_persistenciadados:
     volumes:
       - ./apps/API_persistenciaDados:/app
+    container_name: api_persistenciadados
     build:
       context: .
       dockerfile: apps/API_persistenciaDados/Dockerfile
@@ -29,9 +62,10 @@ services:
       MONGODB_HOSTNAME: mongodb
     networks: 
       - local
-    domainname: apipersist
+    domainname: semantix
     depends_on:
       - mongodb
+
 
   mongodb:
     image: mongo:3.6.3
@@ -50,7 +84,24 @@ services:
       - ./apps/API_persistenciaDados/mongodb:/data
     networks: 
       - local
-    domainname: mongodb
+    domainname: semantix
+
+   
+  postgres:
+    image: postgres:9.6
+    container_name: postgres
+    environment:
+        - POSTGRES_USER=airflow
+        - POSTGRES_PASSWORD=airflow
+        - POSTGRES_DB=airflow
+    logging:
+        options:
+            max-size: 10m
+            max-file: "3"
+    networks: 
+      - local
+    domainname: semantix
+
 
 networks:
   local:

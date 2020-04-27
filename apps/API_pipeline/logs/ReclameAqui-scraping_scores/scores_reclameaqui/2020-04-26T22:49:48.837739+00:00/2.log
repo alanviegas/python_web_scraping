@@ -1,0 +1,369 @@
+[2020-04-26 22:55:01,780] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: ReclameAqui-scraping_scores.scores_reclameaqui 2020-04-26T22:49:48.837739+00:00 [queued]>
+[2020-04-26 22:55:01,848] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: ReclameAqui-scraping_scores.scores_reclameaqui 2020-04-26T22:49:48.837739+00:00 [queued]>
+[2020-04-26 22:55:01,849] {{taskinstance.py:866}} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-26 22:55:01,849] {{taskinstance.py:867}} INFO - Starting attempt 2 of 2
+[2020-04-26 22:55:01,849] {{taskinstance.py:868}} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-26 22:55:01,890] {{taskinstance.py:887}} INFO - Executing <Task(PythonOperator): scores_reclameaqui> on 2020-04-26T22:49:48.837739+00:00
+[2020-04-26 22:55:01,896] {{standard_task_runner.py:53}} INFO - Started process 2201 to run task
+[2020-04-26 22:55:02,037] {{logging_mixin.py:112}} INFO - Running %s on host %s <TaskInstance: ReclameAqui-scraping_scores.scores_reclameaqui 2020-04-26T22:49:48.837739+00:00 [running]> 030a07de9129.semantix
+[2020-04-26 22:55:02,098] {{logging_mixin.py:112}} INFO - DEBUG GET 1: http://api_consultareclameaqui:5000/scores
+[2020-04-26 22:55:02,099] {{logging_mixin.py:112}} INFO - DEBUG GET 2: {'company': 'Cielo'}
+[2020-04-26 22:55:10,142] {{logging_mixin.py:112}} INFO - 500
+[2020-04-26 22:55:10,144] {{logging_mixin.py:112}} INFO - <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <title>WebDriverException: Message: Failed to decode response from marionette // Werkzeug Debugger</title>
+    <link rel="stylesheet" href="?__debugger__=yes&amp;cmd=resource&amp;f=style.css"
+        type="text/css">
+    <!-- We need to make sure this has a favicon so that the debugger does
+         not by accident trigger a request to /favicon.ico which might
+         change the application state. -->
+    <link rel="shortcut icon"
+        href="?__debugger__=yes&amp;cmd=resource&amp;f=console.png">
+    <script src="?__debugger__=yes&amp;cmd=resource&amp;f=jquery.js"></script>
+    <script src="?__debugger__=yes&amp;cmd=resource&amp;f=debugger.js"></script>
+    <script type="text/javascript">
+      var TRACEBACK = 140253372554640,
+          CONSOLE_MODE = false,
+          EVALEX = true,
+          EVALEX_TRUSTED = false,
+          SECRET = "HsqAi0tQlpHRpszttI3k";
+    </script>
+  </head>
+  <body style="background-color: #fff">
+    <div class="debugger">
+<h1>selenium.common.exceptions.WebDriverException</h1>
+<div class="detail">
+  <p class="errormsg">WebDriverException: Message: Failed to decode response from marionette</p>
+</div>
+<h2 class="traceback">Traceback <em>(most recent call last)</em></h2>
+<div class="traceback">
+  
+  <ul><li><div class="frame" id="frame-140253372552464">
+  <h4>File <cite class="filename">"/usr/local/lib/python2.7/dist-packages/flask/app.py"</cite>,
+      line <em class="line">2464</em>,
+      in <code class="function">__call__</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">    </span>def __call__(self, environ, start_response):</pre>
+<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;The WSGI server calls the Flask application object as the</pre>
+<pre class="line before"><span class="ws">        </span>WSGI application. This calls :meth:`wsgi_app` which can be</pre>
+<pre class="line before"><span class="ws">        </span>wrapped to applying middleware.&quot;&quot;&quot;</pre>
+<pre class="line current"><span class="ws">        </span>return self.wsgi_app(environ, start_response)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def __repr__(self):</pre>
+<pre class="line after"><span class="ws">        </span>return &quot;&lt;%s %r&gt;&quot; % (self.__class__.__name__, self.name)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140253372554832">
+  <h4>File <cite class="filename">"/usr/local/lib/python2.7/dist-packages/flask/app.py"</cite>,
+      line <em class="line">2450</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>try:</pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line before"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line before"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line before"><span class="ws">                </span>error = e</pre>
+<pre class="line current"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre>
+<pre class="line after"><span class="ws">                </span>raise</pre>
+<pre class="line after"><span class="ws">            </span>return response(environ, start_response)</pre>
+<pre class="line after"><span class="ws">        </span>finally:</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140253372554896">
+  <h4>File <cite class="filename">"/usr/local/lib/python2.7/dist-packages/flask/app.py"</cite>,
+      line <em class="line">1867</em>,
+      in <code class="function">handle_exception</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span># if we want to repropagate the exception, we can attempt to</pre>
+<pre class="line before"><span class="ws">            </span># raise it with the whole traceback in case we can do that</pre>
+<pre class="line before"><span class="ws">            </span># (the function was actually called from the except part)</pre>
+<pre class="line before"><span class="ws">            </span># otherwise, we just raise the error again</pre>
+<pre class="line before"><span class="ws">            </span>if exc_value is e:</pre>
+<pre class="line current"><span class="ws">                </span>reraise(exc_type, exc_value, tb)</pre>
+<pre class="line after"><span class="ws">            </span>else:</pre>
+<pre class="line after"><span class="ws">                </span>raise e</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">        </span>self.log_exception((exc_type, exc_value, tb))</pre>
+<pre class="line after"><span class="ws">        </span>server_error = InternalServerError()</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140253372554960">
+  <h4>File <cite class="filename">"/usr/local/lib/python2.7/dist-packages/flask/app.py"</cite>,
+      line <em class="line">2447</em>,
+      in <code class="function">wsgi_app</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span>ctx = self.request_context(environ)</pre>
+<pre class="line before"><span class="ws">        </span>error = None</pre>
+<pre class="line before"><span class="ws">        </span>try:</pre>
+<pre class="line before"><span class="ws">            </span>try:</pre>
+<pre class="line before"><span class="ws">                </span>ctx.push()</pre>
+<pre class="line current"><span class="ws">                </span>response = self.full_dispatch_request()</pre>
+<pre class="line after"><span class="ws">            </span>except Exception as e:</pre>
+<pre class="line after"><span class="ws">                </span>error = e</pre>
+<pre class="line after"><span class="ws">                </span>response = self.handle_exception(e)</pre>
+<pre class="line after"><span class="ws">            </span>except:  # noqa: B001</pre>
+<pre class="line after"><span class="ws">                </span>error = sys.exc_info()[1]</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140253372555024">
+  <h4>File <cite class="filename">"/usr/local/lib/python2.7/dist-packages/flask/app.py"</cite>,
+      line <em class="line">1952</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line before"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line before"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line current"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(self, rv, from_error_handler=False):</pre>
+<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Given the return value from a view function this finalizes</pre>
+<pre class="line after"><span class="ws">        </span>the request by converting it into a response and invoking the</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140253372555088">
+  <h4>File <cite class="filename">"/usr/local/lib/python2.7/dist-packages/flask/app.py"</cite>,
+      line <em class="line">1821</em>,
+      in <code class="function">handle_user_exception</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>return self.handle_http_exception(e)</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">        </span>handler = self._find_error_handler(e)</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">        </span>if handler is None:</pre>
+<pre class="line current"><span class="ws">            </span>reraise(exc_type, exc_value, tb)</pre>
+<pre class="line after"><span class="ws">        </span>return handler(e)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def handle_exception(self, e):</pre>
+<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Handle an exception that did not have an error handler</pre>
+<pre class="line after"><span class="ws">        </span>associated with it, or that was raised from an error handler.</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140253372555152">
+  <h4>File <cite class="filename">"/usr/local/lib/python2.7/dist-packages/flask/app.py"</cite>,
+      line <em class="line">1950</em>,
+      in <code class="function">full_dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">        </span>self.try_trigger_before_first_request_functions()</pre>
+<pre class="line before"><span class="ws">        </span>try:</pre>
+<pre class="line before"><span class="ws">            </span>request_started.send(self)</pre>
+<pre class="line before"><span class="ws">            </span>rv = self.preprocess_request()</pre>
+<pre class="line before"><span class="ws">            </span>if rv is None:</pre>
+<pre class="line current"><span class="ws">                </span>rv = self.dispatch_request()</pre>
+<pre class="line after"><span class="ws">        </span>except Exception as e:</pre>
+<pre class="line after"><span class="ws">            </span>rv = self.handle_user_exception(e)</pre>
+<pre class="line after"><span class="ws">        </span>return self.finalize_request(rv)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def finalize_request(self, rv, from_error_handler=False):</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140253372555216">
+  <h4>File <cite class="filename">"/usr/local/lib/python2.7/dist-packages/flask/app.py"</cite>,
+      line <em class="line">1936</em>,
+      in <code class="function">dispatch_request</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>getattr(rule, &quot;provide_automatic_options&quot;, False)</pre>
+<pre class="line before"><span class="ws">            </span>and req.method == &quot;OPTIONS&quot;</pre>
+<pre class="line before"><span class="ws">        </span>):</pre>
+<pre class="line before"><span class="ws">            </span>return self.make_default_options_response()</pre>
+<pre class="line before"><span class="ws">        </span># otherwise dispatch to the handler for that endpoint</pre>
+<pre class="line current"><span class="ws">        </span>return self.view_functions[rule.endpoint](**req.view_args)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def full_dispatch_request(self):</pre>
+<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Dispatches the request and on top of that performs request</pre>
+<pre class="line after"><span class="ws">        </span>pre and postprocessing as well as HTTP exception catching and</pre>
+<pre class="line after"><span class="ws">        </span>error handling.</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140253372551888">
+  <h4>File <cite class="filename">"/app/src/service/api.py"</cite>,
+      line <em class="line">33</em>,
+      in <code class="function">get_scores</code></h4>
+  <div class="source "><pre class="line before"><span class="ws">    </span>return &quot;API para consulta ao Reclame Aqui&quot;</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws"></span>@app.route('/scores', methods=['GET'])</pre>
+<pre class="line before"><span class="ws"></span>def get_scores():</pre>
+<pre class="line before"><span class="ws">    </span>company = request.args['company']</pre>
+<pre class="line current"><span class="ws">    </span>cr = CompanyReclamations()</pre>
+<pre class="line after"><span class="ws">    </span>cr.search_company(company)</pre>
+<pre class="line after"><span class="ws">    </span>scores = cr.get_scores</pre>
+<pre class="line after"><span class="ws">    </span>cr.close()</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>return jsonify(scores)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140253372552272">
+  <h4>File <cite class="filename">"/app/src/dao/reclamations.py"</cite>,
+      line <em class="line">38</em>,
+      in <code class="function">__init__</code></h4>
+  <div class="source "><pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">        </span>self._firefox = webdriver.Firefox(options = self._firefox_options,</pre>
+<pre class="line before"><span class="ws">                                          </span>executable_path = r'{}/utils/geckodriver'.format(get_project_root()),</pre>
+<pre class="line before"><span class="ws">                                          </span>log_path= r'{}/log/geckodriver.log'.format(get_project_root())</pre>
+<pre class="line before"><span class="ws">                                          </span>)</pre>
+<pre class="line current"><span class="ws">        </span>self._firefox.get(self._base_url)</pre>
+<pre class="line after"><span class="ws">        </span>sleep(2)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def search_company(self, company_name):</pre>
+<pre class="line after"><span class="ws">        </span>self._company_name = company_name</pre>
+<pre class="line after"><span class="ws">        </span>self._firefox.find_element_by_class_name('input-auto-complete-search').send_keys(self._company_name)</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140253372552400">
+  <h4>File <cite class="filename">"/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py"</cite>,
+      line <em class="line">333</em>,
+      in <code class="function">get</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">    </span>def get(self, url):</pre>
+<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;</pre>
+<pre class="line before"><span class="ws">        </span>Loads a web page in the current browser session.</pre>
+<pre class="line before"><span class="ws">        </span>&quot;&quot;&quot;</pre>
+<pre class="line current"><span class="ws">        </span>self.execute(Command.GET, {'url': url})</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>@property</pre>
+<pre class="line after"><span class="ws">    </span>def title(self):</pre>
+<pre class="line after"><span class="ws">        </span>&quot;&quot;&quot;Returns the title of the current page.</pre>
+<pre class="line after"><span class="ws"></span> </pre></div>
+</div>
+
+<li><div class="frame" id="frame-140253372502160">
+  <h4>File <cite class="filename">"/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py"</cite>,
+      line <em class="line">321</em>,
+      in <code class="function">execute</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">                </span>params['sessionId'] = self.session_id</pre>
+<pre class="line before"><span class="ws"></span> </pre>
+<pre class="line before"><span class="ws">        </span>params = self._wrap_value(params)</pre>
+<pre class="line before"><span class="ws">        </span>response = self.command_executor.execute(driver_command, params)</pre>
+<pre class="line before"><span class="ws">        </span>if response:</pre>
+<pre class="line current"><span class="ws">            </span>self.error_handler.check_response(response)</pre>
+<pre class="line after"><span class="ws">            </span>response['value'] = self._unwrap_value(</pre>
+<pre class="line after"><span class="ws">                </span>response.get('value', None))</pre>
+<pre class="line after"><span class="ws">            </span>return response</pre>
+<pre class="line after"><span class="ws">        </span># If the server doesn't send a response, assume the command was</pre>
+<pre class="line after"><span class="ws">        </span># a success</pre></div>
+</div>
+
+<li><div class="frame" id="frame-140253372502288">
+  <h4>File <cite class="filename">"/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/errorhandler.py"</cite>,
+      line <em class="line">242</em>,
+      in <code class="function">check_response</code></h4>
+  <div class="source library"><pre class="line before"><span class="ws">            </span>if 'data' in value:</pre>
+<pre class="line before"><span class="ws">                </span>alert_text = value['data'].get('text')</pre>
+<pre class="line before"><span class="ws">            </span>elif 'alert' in value:</pre>
+<pre class="line before"><span class="ws">                </span>alert_text = value['alert'].get('text')</pre>
+<pre class="line before"><span class="ws">            </span>raise exception_class(message, screen, stacktrace, alert_text)</pre>
+<pre class="line current"><span class="ws">        </span>raise exception_class(message, screen, stacktrace)</pre>
+<pre class="line after"><span class="ws"></span> </pre>
+<pre class="line after"><span class="ws">    </span>def _value_or_default(self, obj, key, default):</pre>
+<pre class="line after"><span class="ws">        </span>return obj[key] if key in obj else default</pre></div>
+</div>
+</ul>
+  <blockquote>WebDriverException: Message: Failed to decode response from marionette</blockquote>
+</div>
+
+<div class="plain">
+  <form action="/?__debugger__=yes&amp;cmd=paste" method="post">
+    <p>
+      <input type="hidden" name="language" value="pytb">
+      This is the Copy/Paste friendly version of the traceback.  <span
+      class="pastemessage">You can also paste this traceback into
+      a <a href="https://gist.github.com/">gist</a>:
+      <input type="submit" value="create paste"></span>
+    </p>
+    <textarea cols="50" rows="10" name="code" readonly>Traceback (most recent call last):
+  File &quot;/usr/local/lib/python2.7/dist-packages/flask/app.py&quot;, line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File &quot;/usr/local/lib/python2.7/dist-packages/flask/app.py&quot;, line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File &quot;/usr/local/lib/python2.7/dist-packages/flask/app.py&quot;, line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File &quot;/usr/local/lib/python2.7/dist-packages/flask/app.py&quot;, line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File &quot;/usr/local/lib/python2.7/dist-packages/flask/app.py&quot;, line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File &quot;/usr/local/lib/python2.7/dist-packages/flask/app.py&quot;, line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File &quot;/usr/local/lib/python2.7/dist-packages/flask/app.py&quot;, line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File &quot;/usr/local/lib/python2.7/dist-packages/flask/app.py&quot;, line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File &quot;/app/src/service/api.py&quot;, line 33, in get_scores
+    cr = CompanyReclamations()
+  File &quot;/app/src/dao/reclamations.py&quot;, line 38, in __init__
+    self._firefox.get(self._base_url)
+  File &quot;/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py&quot;, line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File &quot;/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py&quot;, line 321, in execute
+    self.error_handler.check_response(response)
+  File &quot;/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/errorhandler.py&quot;, line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: Failed to decode response from marionette</textarea>
+  </form>
+</div>
+<div class="explanation">
+  The debugger caught an exception in your WSGI application.  You can now
+  look at the traceback which led to the error.  <span class="nojavascript">
+  If you enable JavaScript you can also use additional features such as code
+  execution (if the evalex feature is enabled), automatic pasting of the
+  exceptions and much more.</span>
+</div>
+      <div class="footer">
+        Brought to you by <strong class="arthur">DON'T PANIC</strong>, your
+        friendly Werkzeug powered traceback interpreter.
+      </div>
+    </div>
+
+    <div class="pin-prompt">
+      <div class="inner">
+        <h3>Console Locked</h3>
+        <p>
+          The console is locked and needs to be unlocked by entering the PIN.
+          You can find the PIN printed out on the standard output of your
+          shell that runs the server.
+        <form>
+          <p>PIN:
+            <input type=text name=pin size=14>
+            <input type=submit name=btn value="Confirm Pin">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/local/lib/python2.7/dist-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/app/src/service/api.py", line 33, in get_scores
+    cr = CompanyReclamations()
+  File "/app/src/dao/reclamations.py", line 38, in __init__
+    self._firefox.get(self._base_url)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py", line 333, in get
+    self.execute(Command.GET, {'url': url})
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/webdriver.py", line 321, in execute
+    self.error_handler.check_response(response)
+  File "/usr/local/lib/python2.7/dist-packages/selenium/webdriver/remote/errorhandler.py", line 242, in check_response
+    raise exception_class(message, screen, stacktrace)
+WebDriverException: Message: Failed to decode response from marionette
+
+-->
+[2020-04-26 22:55:10,147] {{logging_mixin.py:112}} INFO - 
+[2020-04-26 22:55:10,148] {{python_operator.py:114}} INFO - Done. Returned value was: <Response [500]>
+[2020-04-26 22:55:10,233] {{taskinstance.py:1048}} INFO - Marking task as SUCCESS.dag_id=ReclameAqui-scraping_scores, task_id=scores_reclameaqui, execution_date=20200426T224948, start_date=20200426T225501, end_date=20200426T225510
+[2020-04-26 22:55:11,681] {{logging_mixin.py:112}} INFO - [2020-04-26 22:55:11,681] {{local_task_job.py:103}} INFO - Task exited with return code 0

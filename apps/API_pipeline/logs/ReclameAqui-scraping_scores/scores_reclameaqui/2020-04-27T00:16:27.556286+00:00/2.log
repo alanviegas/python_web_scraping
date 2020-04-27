@@ -1,0 +1,23 @@
+[2020-04-27 00:21:36,651] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: ReclameAqui-scraping_scores.scores_reclameaqui 2020-04-27T00:16:27.556286+00:00 [queued]>
+[2020-04-27 00:21:36,690] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: ReclameAqui-scraping_scores.scores_reclameaqui 2020-04-27T00:16:27.556286+00:00 [queued]>
+[2020-04-27 00:21:36,690] {{taskinstance.py:866}} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-27 00:21:36,690] {{taskinstance.py:867}} INFO - Starting attempt 2 of 2
+[2020-04-27 00:21:36,691] {{taskinstance.py:868}} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-27 00:21:36,707] {{taskinstance.py:887}} INFO - Executing <Task(PythonOperator): scores_reclameaqui> on 2020-04-27T00:16:27.556286+00:00
+[2020-04-27 00:21:36,712] {{standard_task_runner.py:53}} INFO - Started process 23604 to run task
+[2020-04-27 00:21:36,785] {{logging_mixin.py:112}} INFO - Running %s on host %s <TaskInstance: ReclameAqui-scraping_scores.scores_reclameaqui 2020-04-27T00:16:27.556286+00:00 [running]> 030a07de9129.semantix
+[2020-04-27 00:21:36,807] {{logging_mixin.py:112}} INFO - DEBUG GET 1: http://api_consultareclameaqui:5000/scores
+[2020-04-27 00:21:36,807] {{logging_mixin.py:112}} INFO - DEBUG GET 2: {'company': 'Cielo'}
+[2020-04-27 00:22:12,714] {{logging_mixin.py:112}} INFO - 200
+[2020-04-27 00:22:12,714] {{logging_mixin.py:112}} INFO - {
+  "answered": "6044", 
+  "reclamations": "6144", 
+  "response_time": "15 dias e 1 hora ", 
+  "unanswered": "100"
+}
+[2020-04-27 00:22:12,730] {{logging_mixin.py:112}} INFO - 
+[2020-04-27 00:22:12,730] {{python_operator.py:114}} INFO - Done. Returned value was: <Response [200]>
+[2020-04-27 00:22:12,779] {{taskinstance.py:1048}} INFO - Marking task as SUCCESS.dag_id=ReclameAqui-scraping_scores, task_id=scores_reclameaqui, execution_date=20200427T001627, start_date=20200427T002136, end_date=20200427T002212
+[2020-04-27 00:22:16,709] {{logging_mixin.py:112}} INFO - [2020-04-27 00:22:16,708] {{local_task_job.py:103}} INFO - Task exited with return code 0

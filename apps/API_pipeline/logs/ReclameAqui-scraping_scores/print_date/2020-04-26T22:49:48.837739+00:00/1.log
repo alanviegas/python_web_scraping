@@ -1,0 +1,19 @@
+[2020-04-26 23:00:22,107] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: ReclameAqui-scraping_scores.print_date 2020-04-26T22:49:48.837739+00:00 [queued]>
+[2020-04-26 23:00:22,134] {{taskinstance.py:655}} INFO - Dependencies all met for <TaskInstance: ReclameAqui-scraping_scores.print_date 2020-04-26T22:49:48.837739+00:00 [queued]>
+[2020-04-26 23:00:22,135] {{taskinstance.py:866}} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-26 23:00:22,135] {{taskinstance.py:867}} INFO - Starting attempt 1 of 2
+[2020-04-26 23:00:22,135] {{taskinstance.py:868}} INFO - 
+--------------------------------------------------------------------------------
+[2020-04-26 23:00:22,155] {{taskinstance.py:887}} INFO - Executing <Task(BashOperator): print_date> on 2020-04-26T22:49:48.837739+00:00
+[2020-04-26 23:00:22,159] {{standard_task_runner.py:53}} INFO - Started process 5641 to run task
+[2020-04-26 23:00:22,243] {{logging_mixin.py:112}} INFO - Running %s on host %s <TaskInstance: ReclameAqui-scraping_scores.print_date 2020-04-26T22:49:48.837739+00:00 [running]> 030a07de9129.semantix
+[2020-04-26 23:00:22,272] {{bash_operator.py:82}} INFO - Tmp dir root location: 
+ /tmp
+[2020-04-26 23:00:22,273] {{bash_operator.py:105}} INFO - Temporary script location: /tmp/airflowtmpu06rkdh6/print_datejh2874yt
+[2020-04-26 23:00:22,274] {{bash_operator.py:115}} INFO - Running command: date
+[2020-04-26 23:00:22,283] {{bash_operator.py:122}} INFO - Output:
+[2020-04-26 23:00:22,291] {{bash_operator.py:126}} INFO - Sun 26 Apr 2020 11:00:22 PM UTC
+[2020-04-26 23:00:22,291] {{bash_operator.py:130}} INFO - Command exited with return code 0
+[2020-04-26 23:00:22,306] {{taskinstance.py:1048}} INFO - Marking task as SUCCESS.dag_id=ReclameAqui-scraping_scores, task_id=print_date, execution_date=20200426T224948, start_date=20200426T230022, end_date=20200426T230022
+[2020-04-26 23:00:32,069] {{logging_mixin.py:112}} INFO - [2020-04-26 23:00:32,069] {{local_task_job.py:103}} INFO - Task exited with return code 0
