@@ -36,12 +36,12 @@ class CompanyReclamations:
                                           log_path= r'{}/log/geckodriver.log'.format(get_project_root())
                                           )
         self._firefox.get(self._base_url)
-        sleep(2)
+        sleep(4)
 
     def search_company(self, company_name):
         self._company_name = company_name
         self._firefox.find_element_by_class_name('input-auto-complete-search').send_keys(self._company_name)
-        sleep(2)
+        sleep(4)
 
         for company in self._firefox.find_elements_by_class_name('card-company'):
             if company.find_element_by_class_name('company-name').text == self._company_name:
@@ -49,10 +49,10 @@ class CompanyReclamations:
                 break
 
         self._company_link.click()
-        sleep(2)
+        sleep(4)
 
         self._firefox.find_element_by_class_name('menu-item').click()
-        sleep(2)
+        sleep(4)
 
     def close(self):
         self._firefox.quit()
@@ -86,7 +86,7 @@ class CompanyReclamations:
             
             #print('DEBUG: {}'.format(reclamation_link))
             self._firefox.get(reclamation_link)
-            sleep(2)
+            sleep(4)
 
             self._bs_page = bs(self._firefox.page_source, 'html.parser')
             self._title = self._bs_page.find('h1', {'class': 'ng-binding'}).text

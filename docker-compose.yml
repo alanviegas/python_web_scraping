@@ -5,12 +5,13 @@ services:
   api_pipeline:
     image: puckel/docker-airflow
     container_name: api_pipeline
-    restart: always
+    restart: unless-stopped
     depends_on:
         - postgres
     environment:
         - LOAD_EX=n
         - EXECUTOR=Local
+        - PYTHONPATH=$PYTHONPATH:/usr/local/airflow/plugins
     logging:
         options:
             max-size: 10m
@@ -18,7 +19,8 @@ services:
     volumes:
         - ./apps/API_pipeline/dags:/usr/local/airflow/dags
         - ./apps/API_pipeline/logs:/usr/local/airflow/logs
-        # - ./plugins:/usr/local/airflow/plugins
+        - ./apps/API_pipeline/plugins:/usr/local/airflow/plugins
+        - ./apps/API_pipeline:/usr/local/airflow
     ports:
         - "8080:8080"
     command: webserver
@@ -36,6 +38,7 @@ services:
     volumes:
         - ./apps/API_consultaReclameAqui:/app
     container_name: api_consultareclameaqui
+    restart: unless-stopped
     build:
       context: .
       dockerfile: apps/API_consultaReclameAqui/Dockerfile
@@ -50,6 +53,7 @@ services:
     volumes:
       - ./apps/API_persistenciaDados:/app
     container_name: api_persistenciadados
+    restart: unless-stopped
     build:
       context: .
       dockerfile: apps/API_persistenciaDados/Dockerfile
@@ -90,6 +94,7 @@ services:
   postgres:
     image: postgres:9.6
     container_name: postgres
+    restart: unless-stopped
     environment:
         - POSTGRES_USER=airflow
         - POSTGRES_PASSWORD=airflow
