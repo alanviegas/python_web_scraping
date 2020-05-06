@@ -81,6 +81,7 @@
 ## Backlogs
  - Implementar autenticação com JWT nas APIs para garantir segurança
  - Implementar no Airflow o job query_and_export_reclamations
+ - Deixar parametrizável no pipeline a empresa que se quer consultar 
 
 ## Bugs
  - O job scraping_and_persist_reclamations não esta conseguindo fazer o scraping das 10 reclamações mais recentes,
