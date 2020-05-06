@@ -60,9 +60,12 @@
     - "Dockerfile" : Definições específicas do Docker
 
  - "/app/Airflow_pipeline" : Workflow que irá orquestrar o pipeline
+    - "airflow.cfg" : Arquivo de configuração do AirFlow
+    - "dags" : Pipelines desenvolvidos
+    - "logs" : Logs de de execução dos pipelines
+    - "plugins" : Scripts de execuç~ao das tasks de cada pipeline
 
  - "/docs" : Documentos e arquivos do projeto
-    git push https://github.com/alanviegas/python_web_scraping.git
  - "docker-compose.yml" : Definições para subir os containers
  - "run.sh" : ShellScript que sobe todos os ambientes
 
