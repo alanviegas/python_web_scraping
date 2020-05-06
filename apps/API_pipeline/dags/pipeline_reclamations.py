@@ -5,7 +5,7 @@ from airflow.utils.dates import days_ago
 
 
 company='Cielo'
-collection='scores'
+collection='reclamations'
 
 default_args = {
     'owner': 'airflow',
@@ -32,9 +32,9 @@ default_args = {
 }
 
 dag = DAG(
-        'scraping_and_persist_scores',
+        'scraping_and_persist_reclamations',
         default_args=default_args,
-        description='Coleta os scores do site ReclameAqui e armazena no mongodb',
+        description='Coleta as 10 reclamacoes mais recentes do site ReclameAqui e armazena no mongodb',
         schedule_interval=timedelta(days=1),
         )
 

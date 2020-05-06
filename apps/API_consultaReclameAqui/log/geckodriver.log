@@ -2554,3 +2554,280 @@ JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA
 JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1120689362 line 1 > eval, line 1: unreachable code after return statement
 JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1120689362 line 1 > eval, line 1: unreachable code after return statement
 1588200769414	Marionette	INFO	Stopped listening on port 39787
+1588771922198	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7ikoWH"
+1588771922232	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileNjPD93"
+1588771922238	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledfaLWX"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1588771923634	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588771923645	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588771923652	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588771924040	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEGzhvt"
+*** You are running in headless mode.
+1588771924448	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588771924511	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588771924511	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588771924511	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588771924511	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588771924512	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588771924512	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588771924512	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588771924512	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588771924594	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588771924599	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588771924599	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588771924602	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588771925521	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588771925522	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588771925522	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588771925534	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588771925695	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYePi7n"
+*** You are running in headless mode.
+1588771926242	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588771927799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588771927799	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588771927800	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588771927800	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588771928089	Marionette	INFO	Listening on port 44559
+1588771928274	Marionette	WARN	TLS certificate errors will be ignored for this session
+1588771928547	Marionette	INFO	Listening on port 36695
+1588771928570	Marionette	WARN	TLS certificate errors will be ignored for this session
+1588771928657	Marionette	INFO	Listening on port 44135
+1588771928671	Marionette	INFO	Listening on port 41141
+1588771928732	Marionette	WARN	TLS certificate errors will be ignored for this session
+1588771928818	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769 line 1 > eval, line 1: unreachable code after return statement
+1588771931029	Marionette	INFO	Listening on port 36885
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647 line 1 > eval, line 1: unreachable code after return statement
+1588771931155	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x8000E,name=PBackgroundIDBDatabase::Msg_CloseAfterInvalidationComplete) Channel error: cannot send/recv
+
+1588771936719	Marionette	INFO	Stopped listening on port 36885
+1588771938792	Marionette	INFO	Stopped listening on port 44135
+1588771939128	Marionette	INFO	Stopped listening on port 36695
+1588771939725	Marionette	INFO	Stopped listening on port 44559
+1588771940963	Marionette	INFO	Stopped listening on port 41141
+1588772071404	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2m6x0Q"
+*** You are running in headless mode.
+1588772072250	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588772073027	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588772073027	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588772073028	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588772073028	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588772075055	Marionette	INFO	Listening on port 35885
+1588772075131	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: https://www.reclameaqui.com.br/ line 6407 > scriptElement, line 2: TypeError: $(...).html(...) is undefined
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1146820034, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1146820034, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1146820034 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: https://www.reclameaqui.com.br/empresa/cielo/ line 6407 > scriptElement, line 2: TypeError: $(...).html(...) is undefined
+JavaScript error: https://www.reclameaqui.com.br/empresa/cielo/lista-reclamacoes, line 1: ReferenceError: googletag is not defined
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=1322051434, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=1322051434, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=1322051434 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1146820034, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1146820034, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1146820034 line 1 > eval, line 1: unreachable code after return statement
+1588772104070	Marionette	INFO	Stopped listening on port 35885
+1588772657071	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileGaKmNX"
+*** You are running in headless mode.
+1588772658273	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588772658958	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588772658958	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588772658959	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588772658959	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588772660856	Marionette	INFO	Listening on port 46639
+1588772660949	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: https://www.reclameaqui.com.br/ line 6407 > scriptElement, line 2: TypeError: $(...).html(...) is undefined
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=745444922, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=745444922 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758 line 1 > eval, line 1: unreachable code after return statement
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1588772687141	Marionette	INFO	Stopped listening on port 46639
+1588772726269	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9ptPTP"
+*** You are running in headless mode.
+1588772727345	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588772728143	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588772728143	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588772728143	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588772728144	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588772731008	Marionette	INFO	Listening on port 32769
+1588772731099	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: https://www.reclameaqui.com.br/ line 6407 > scriptElement, line 2: TypeError: $(...).html(...) is undefined
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=462820317, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=462820317, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=462820317, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=462820317 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=462820317 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: https://www.reclameaqui.com.br/empresa/cielo/ line 6407 > scriptElement, line 2: TypeError: $(...).html(...) is undefined
+JavaScript error: https://www.reclameaqui.com.br/empresa/cielo/lista-reclamacoes, line 1: ReferenceError: googletag is not defined
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=1322051434, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=1322051434, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=1322051434 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=462820317, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=462820317, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=462820317, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=462820317 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=462820317 line 1 > eval, line 1: unreachable code after return statement
+1588772762920	Marionette	INFO	Stopped listening on port 32769
+1588772982156	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRC2nsu"
+*** You are running in headless mode.
+1588772982597	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588772983315	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588772983315	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588772983315	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588772983316	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588772985523	Marionette	INFO	Listening on port 34955
+1588772985578	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=965562769 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: https://www.reclameaqui.com.br/ line 6407 > scriptElement, line 2: TypeError: $(...).html(...) is undefined
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1922563443, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1922563443, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1922563443 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758 line 1 > eval, line 1: unreachable code after return statement
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1588773018124	Marionette	INFO	Stopped listening on port 34955
+1588773094915	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileX85Qhe"
+*** You are running in headless mode.
+1588773095255	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588773095761	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588773095761	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588773095761	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588773095762	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588773098232	Marionette	INFO	Listening on port 41163
+1588773098329	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: https://www.reclameaqui.com.br/ line 6407 > scriptElement, line 2: TypeError: $(...).html(...) is undefined
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=128781257, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=128781257, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=128781257, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=128781257 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=128781257 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758 line 1 > eval, line 1: unreachable code after return statement
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1588773120916	Marionette	INFO	Stopped listening on port 41163
+1588773159968	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile33aKj9"
+*** You are running in headless mode.
+1588773160282	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1588773160732	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1588773160732	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1588773160732	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1588773160733	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1588773163182	Marionette	INFO	Listening on port 40035
+1588773163293	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2058245647 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: https://www.reclameaqui.com.br/ line 6407 > scriptElement, line 2: TypeError: $(...).html(...) is undefined
+JavaScript error: https://www.youtube.com/yts/jsbin/www-embed-player-vflPfRdtN/www-embed-player.js, line 398: NS_ERROR_FAILURE: 
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=2&cb=2078361698 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=58545419, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=58545419, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=58545419, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=58545419 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=58545419 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=26&cb=1753572758 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: https://www.reclameaqui.com.br/empresa/cielo/ line 6407 > scriptElement, line 2: TypeError: $(...).html(...) is undefined
+JavaScript error: https://www.reclameaqui.com.br/empresa/cielo/lista-reclamacoes, line 1: ReferenceError: googletag is not defined
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=1322051434, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=1322051434, line 1: unreachable code after return statement
+JavaScript warning: https://www.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=3&cb=1322051434 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=58545419, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=58545419, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=58545419, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=58545419 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://auth.reclameaqui.com.br/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=58545419 line 1 > eval, line 1: unreachable code after return statement
+1588773189923	Marionette	INFO	Stopped listening on port 40035

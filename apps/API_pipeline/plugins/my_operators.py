@@ -54,13 +54,13 @@ class GetReclameAqui(BaseOperator):
         self.url = 'http://api_consultareclameaqui:5000/{}'.format(self.collection)
     
     def execute(self, context):
-        log.debug('GetReclameAqui url: {}'.format(self.url)) 
-        log.debug('GetReclameAqui params: {}'.format(self.params))
+        log.info('GetReclameAqui url: {}'.format(self.url)) 
+        log.info('GetReclameAqui params: {}'.format(self.params))
  
         response = requests.get(self.url, params=self.params)
         #response_fmt = {response.status_code : response.text}
         response_fmt = response.text
-        log.debug('GetReclameAqui response: {}'.format(response_fmt))
+        log.info('GetReclameAqui response: {}'.format(response_fmt))
  
         task_instance = context['task_instance']
         task_instance.xcom_push('response', response_fmt)
@@ -83,26 +83,26 @@ class PersisteDatabase(BaseOperator):
  
     def execute(self, context):
         if self.method == 'POST':
-            log.debug('PersisteDatabase params: {}'.format(self.params))
+            log.info('PersisteDatabase params: {}'.format(self.params))
 
             task_instance = context['task_instance']
             jsondata = task_instance.xcom_pull('consulta_reclameaqui', key='response')
-            log.debug('PersisteDatabase jsondata: {}'.format(jsondata))
+            log.info('PersisteDatabase jsondata: {}'.format(jsondata))
 
             response = self.__post_data(jsondata)
-            log.debug('PersisteDatabase response: {}, {}'.format(response.status_code, response.text))
+            log.info('PersisteDatabase response: {}, {}'.format(response.status_code, response.text))
 
         elif self.method == 'GET':
-            log.debug('PersisteDatabase params: {}'.format(self.params))
+            log.info('PersisteDatabase params: {}'.format(self.params))
             response = self.__get_data()
             response_fmt = response.text
-            log.debug('PersisteDatabase response: {}'.format(response_fmt))
+            log.info('PersisteDatabase response: {}'.format(response_fmt))
             
             task_instance = context['task_instance']
             task_instance.xcom_push('response', response_fmt)
 
         elif method == 'DELETE':
-            log.debug('PersisteDatabase params: {}'.format(self.params))
+            log.info('PersisteDatabase params: {}'.format(self.params))
             response = self.__delete_data()
 
     def __post_data(self, jsondata):

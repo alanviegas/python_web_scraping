@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 
 services:
 
@@ -11,7 +11,7 @@ services:
     environment:
         - LOAD_EX=n
         - EXECUTOR=Local
-        - PYTHONPATH=$PYTHONPATH:/usr/local/airflow/plugins
+        #- PYTHONPATH=$PYTHONPATH:/usr/local/airflow/plugins
     logging:
         options:
             max-size: 10m
@@ -33,7 +33,6 @@ services:
       - local
     domainname: semantix
 
-
   api_consultareclameaqui:
     volumes:
         - ./apps/API_consultaReclameAqui:/app
@@ -47,7 +46,6 @@ services:
     networks: 
       - local
     domainname: semantix
-
 
   api_persistenciadados:
     volumes:
@@ -69,7 +67,6 @@ services:
     domainname: semantix
     depends_on:
       - mongodb
-
 
   mongodb:
     image: mongo:3.6.3
@@ -106,7 +103,6 @@ services:
     networks: 
       - local
     domainname: semantix
-
 
 networks:
   local:
