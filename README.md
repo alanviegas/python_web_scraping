@@ -1,10 +1,8 @@
 # Objetivo
-
-    Estudo para fazer uma web scraping no site ReclameAqui para pegar as quantidades de reclamações de uma 
-    determinada empresa e armazenar o resultado em um banco de dados.
+ - Estudo para fazer uma web scraping no site ReclameAqui para pegar as quantidades de reclamações de uma 
+   determinada empresa e armazenar o resultado em um banco de dados.
 
 ## Passo a passo
-
  - Em uma pasta qualquer baixe o projeto:
         git clone https://github.com/alanviegas/python_web_scraping.git
         cd python_web_scraping
@@ -37,7 +35,6 @@
             description: Descrição da reclamação
  
 ## Estrutura do pastas do projeto
- 
  - "/app/API_consultaReclameAqui" : API que consulta o site ReclameAqui e retorna os resultados
     - "log" : Logs da API
     - "src" : Arquivos fontes da API
@@ -69,13 +66,8 @@
  - "docker-compose.yml" : Definições para subir os containers
  - "run.sh" : ShellScript que sobe todos os ambientes
 
-## Releases
- 
- - v0
-    - Deploy Inicial
 
 ## Tecnologias e Bibliotecas utilizadas
- 
  - Python 3.6
     - BeautifulSoup
     - Flask
@@ -94,3 +86,6 @@
  - O job scraping_and_persist_reclamations não esta conseguindo fazer o scraping das 10 reclamações mais recentes,
    parecer ser algum problema na formatação do json.
 
+## Releases
+ - v0
+    - Deploy Inicial
